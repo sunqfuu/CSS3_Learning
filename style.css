@@ -244,9 +244,12 @@
 
     /* Image */
     #image_id{
-        background-image: url('./image/css3.png');
-        width: 100%;
+        background-image: url('./image/4.png');
+        width: 50%;
         height: 500px;
         background-size: cover;
         /* object-fit: cover; */
     }
+
+   
+    
