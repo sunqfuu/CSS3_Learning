@@ -64,6 +64,7 @@
         border-bottom-left-radius: 20px;
     }
 
+    /* Text */
     #parag_id4{
         font-family: "Playfair Display", serif;
         font-optical-sizing: auto;
@@ -82,5 +83,29 @@
         padding-right: 12px;
         word-spacing: 1px;
         letter-spacing: 1px;
-        text-shadow: 2px 2px 2px yellow;
+        text-shadow: 2px 2px 2px yellow;  
+    }
+
+    /* Column -Count Layout*/
+
+    .column-container{
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 1px solid red;
+        text-transform: capitalize;
+    }
+
+    /* Line -Clamp Layout*/
+    .line-clamp4{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    
+    /* Mozilla Line -Clamp Layout*/
+        display: -moz-box;
+        -moz-line-clamp: 4;
+        -moz-box-orient: vertical;
+        overflow: hidden;
+        
     }
