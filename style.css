@@ -238,6 +238,15 @@
     #parag6{
         /* font-size: 2rem; */
         /* font-size: 2em; */
-        font-size: calc(2em + 20px);
+        font-size: calc(1em + 20px);
 
+    }
+
+    /* Image */
+    #image_id{
+        background-image: url('./image/css3.png');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        /* object-fit: cover; */
     }
