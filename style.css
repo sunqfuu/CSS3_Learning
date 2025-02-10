@@ -1,0 +1,27 @@
+/* Using with Tag */
+/* p{
+    background-color: black;
+} */
+
+/* Using with ID */
+/* #parag_id{
+    background-color: red;
+} */
+
+/* Using with Class */
+/* .parag_class{
+    background-color: green;
+} */
+
+/* Color, Background Color and Important */
+#parag_id{
+    color:red;
+    color:#ff0000;
+    color:rgb(255, 0, 0);
+    color:rgba(255, 0, 0, 0.9);
+    color:hsl(0, 100%, 50%);
+    color:hsla(0, 100%, 50%, 0.9);
+    background-color: black!important;
+    background-color: blue;
+    
+    }
