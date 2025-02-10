@@ -24,4 +24,23 @@
     background-color: black!important;
     background-color: blue;
     
+    /* Padding Example */
+    /* padding: 10px 15px 25px 12px; */
+    /* padding: 10px 20px 15px; */
+    /* padding: 15px 20px; */
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+    /* Margin Example */
+    /* margin: 10px 15px 25px 12px; */
+    /* margin: 10px 20px 15px; */
+    /* margin: 15px 20px; */
+    /* margin: 15px; */
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     }
