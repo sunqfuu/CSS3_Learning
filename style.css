@@ -106,6 +106,33 @@
         display: -moz-box;
         -moz-line-clamp: 4;
         -moz-box-orient: vertical;
-        overflow: hidden;
-        
+        overflow: hidden;  
+    }
+
+    /* Link Miuul */
+    #miuul_a{
+        color: rgba(253, 2, 190, 0.87);
+        text-decoration: none;
+        padding: 10px;
+        background-color: black;
+    }
+        #miuul_a:hover{
+        color: white;
+        text-decoration: none;
+        padding: 9px;
+        background-color: blue;
+    }
+
+    .miuul_width_height{
+        background-color: blue;
+        color: white;
+        margin-top: 5px;
+        width: 200%;
+        width: 70%;
+        height: 50px;
+    }
+    .miuul_width_height:hover{
+        background-color: white;
+        color: blue;
+        cursor: pointer;
     }
