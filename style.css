@@ -225,3 +225,19 @@
     .custom_table tr:nth-child(even) {
         background-color: #f2f2f2;
     }
+
+    /* Rem=Html Em=Body Calc: Hesaplam */
+
+    /* html{
+        font-size: 16px;
+    } */
+
+    body{
+        font-size: 20px;
+    }
+    #parag6{
+        /* font-size: 2rem; */
+        /* font-size: 2em; */
+        font-size: calc(2em + 20px);
+
+    }
