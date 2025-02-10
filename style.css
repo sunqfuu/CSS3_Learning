@@ -273,3 +273,25 @@
     background-size: cover;  
     background-position: center;
 }
+
+/* Float Examples */
+
+.float_examples{
+    float: right;
+    margin-left: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Clip Path Examples */
+
+#clip_path_id{
+    background-color: yellow;
+    min-height: 300px;
+    max-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
