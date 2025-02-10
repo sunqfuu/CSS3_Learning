@@ -120,7 +120,7 @@
         color: white;
         text-decoration: none;
         padding: 9px;
-        background-color: blue;
+        background-color: pink;
     }
 
     .miuul_width_height{
@@ -135,4 +135,27 @@
         background-color: white;
         color: blue;
         cursor: pointer;
+    }
+
+    /*Transition - Transform - Box Shadow*/
+    .miuul_transition_transform{
+        background-color: blue;
+        color: black;
+        width: 75%;
+        height: 100px;
+        padding: 10px;
+        transition: width 1s ease-in-out 0.3s, background-color 0.5 linear;
+        transition: all 3s;
+        box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .miuul_transition_transform:hover{
+        background-color: black;
+        color: blue;
+        width: 100%;
+        transform: rotate(45deg);
+        transform: scale(1.5);
+        transform: translate(50px, 20px);
+        transform: skew(20deg, 10deg);
     }
