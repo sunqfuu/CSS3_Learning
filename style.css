@@ -406,3 +406,40 @@ a:active{
         margin-bottom: 10px;
     }
 }  
+
+/*Flexbox Examples */
+.flexbox_grid1{
+    background-color: cyan;
+    display: flex;  /* Yatay Yapılandırma */
+    flex-direction: column;  /* Dikey Yapılandırma */
+    justify-content: center;  /* Yatayda Ortala */
+    align-items: center;  /* Dikeyde Ortala */
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.flexbox_grid2{
+    background-color: blueviolet;
+    display: flex;  /* Yatay Yapılandırma */
+    justify-content: space-between;  /* Yatayda Ortala */
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid pink;
+    justify-content: flex-end;  /* Yatayda Sağa Yaslama */
+    justify-content: flex-start;  /* Yatayda Sola Yaslama */
+}
+
+.flexbox_grid3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;  
+}
+
+.flexbox_grid3 .child{
+    background-color: yellow;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid black;
+}
