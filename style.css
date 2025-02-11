@@ -295,3 +295,56 @@
     max-width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
 }
+
+/* Selector Types */
+
+p{
+    font-size: 1rem;
+}
+
+.parag1{
+    font-size: 1.5rem;
+}
+
+div{
+    background-color: red;
+}
+
+div p{
+    background-color: blue;
+}
+
+div + p{
+    background-color: green;
+}
+
+div ~ p{
+    background-color: purple;
+}
+li:nth-child(odd){
+    background-color: gray;
+}
+
+li:nth-child(even){
+    background-color: aqua;
+}
+
+li:nth-of-type(6){
+    background-color: palegreen;
+}
+
+a{
+    background-color: red;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a{
+    color: black;
+}
+
+a:active{
+    background-color: green;
+}
